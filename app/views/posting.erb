@@ -1,0 +1,10 @@
+<div class='container'>
+	<h2 class='title'><%= @category %></h2>
+	<% @postings.each do |posting| %>
+		<h3><a href="/posts/<%= posting.id %>"><%= posting.title %></a></h3>
+		<p><%= posting.description %></p>
+	<% end %>
+	<p class='footer'>
+		<a class='new_post' href="/<%= @category %>/new">new post</a>
+	</p>
+</div>

@@ -1,0 +1,5 @@
+Category.create({category_name: 'Automobiles'})
+Category.create({category_name: 'Jobs'})
+Category.create({category_name: 'For Sale'})
+Category.create({category_name: 'Free'})
+Category.create({category_name: 'Services'})

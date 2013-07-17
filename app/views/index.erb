@@ -1,0 +1,8 @@
+<div class="container">
+  <% @categories.each do |category| %>
+  <p>
+    <a href="/<%= category %>"><%= category %></a>
+    <a class='new_post' href="/<%= category %>/new">new post</a>
+  </p>
+  <% end %>
+</div>
